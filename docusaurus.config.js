@@ -85,6 +85,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Lablup, Inc. Built with Docusaurus.`,
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+    },
   },
   presets: [
     [
