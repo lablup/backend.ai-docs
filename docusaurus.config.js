@@ -17,13 +17,13 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: '/',
+          activeBasePath: 'docs', // FIXME: an empty str makes it always active...
           label: 'Docs',
           position: 'left',
         },
         {
-          to: 'api-ref/',
+          to: '/api-ref/',
           activeBasePath: 'api-ref',
           label: 'API Reference',
           position: 'left',
@@ -43,32 +43,40 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Getting Started',
+              to: '/',
             },
           ],
         },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'Twitter',
-        //       href: 'https://twitter.com/docusaurus',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'API Reference',
+          items: [
+            {
+              label: 'Manager API (REST)',
+              to: '/api-ref/manager/rest/overview',
+            },
+            {
+              label: 'Manager API (GraphQL)',
+              to: '/api-ref/manager/gql/overview',
+            },
+            {
+              label: 'Storage Proxy API (Client-facing)',
+              to: '/api-ref/storage-proxy/client-facing',
+            },
+            {
+              label: 'Storage Proxy API (Manager-facing)',
+              to: '/api-ref/storage-proxy/manager-facing',
+            },
+            {
+              label: 'WebSocket Proxy API',
+              to: '/api-ref/wsproxy/overview',
+            },
+            {
+              label: 'Client SDK API (Python)',
+              to: '/api-ref/client-py/overview',
+            },
+          ],
+        },
         {
           title: 'More',
           items: [
@@ -95,15 +103,23 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/lablup/backend.ai-docs/edit/master/',
+        },
+        'api-ref': {
+          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/api-ref/',
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/lablup/backend.ai-docs/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/lablup/backend.ai-docs/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
