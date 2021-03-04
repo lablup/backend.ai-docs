@@ -106,20 +106,20 @@ module.exports = {
           routeBasePath: '/',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lablup/backend.ai-docs/edit/master/',
+            'https://github.com/lablup/backend.ai-docs/edit/main/',
         },
         'api-ref': {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/api-ref/',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lablup/backend.ai-docs/edit/master/',
+            'https://github.com/lablup/backend.ai-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lablup/backend.ai-docs/edit/master/blog/',
+            'https://github.com/lablup/backend.ai-docs/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
