@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Backend.AI Documentation and Tech Blog',
   url: 'https://docs.backend.ai',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'lablup', // Usually your GitHub org/user name.
