@@ -29,7 +29,7 @@ Backend.AI에서는 storage folder 기능을 통해 컨테이너로 이루어진
 
 <figure>
     <img
-        src="/static/assets/blog/git-tree-example.png"
+        src="/assets/blog/git-tree-example.png"
         width="60%"
     />
     <figcaption>Fig.1 <code>git tree</code> 명령어 실행 예제</figcaption>
@@ -61,7 +61,7 @@ Python에서도 [`python-getdents`](https://pypi.org/project/getdents/) 패키�
 
 <figure>
     <img
-        src="/static/assets/blog/getdents-batching.svg"
+        src="/assets/blog/getdents-batching.svg"
         width="100%"
     />
     <figcaption>Fig.2 The effect of batching in the getdents syscall</figcaption>
