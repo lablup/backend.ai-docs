@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Vim swap
+.*.swp
+.swp
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
