@@ -85,12 +85,24 @@ module.exports = {
           title: 'More',
           items: [
             {
+              label: 'Home',
+              href: 'https://lablup.com/',
+            },
+            {
+              label: 'Jobs',
+              href: 'https://lablup.com/job',
+            },
+            {
+              label: 'Backend.AI',
+              href: 'https://backend.ai/',
+            },
+            {
               label: 'Blog',
-              href: 'https://blog.lablup.com/',
+              to: 'https://blog.lablup.com/',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/lablup/backend.ai',
+              href: 'https://github.com/lablup',
             },
           ],
         },
