@@ -2,13 +2,13 @@
 
 Collection of Backend.AI documents as a Docusaurus website.
 
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+
 
 ## Legacy Document List
 
 * [Backend.AI Console User Guide](https://github.com/lablup/backend.ai-docs-console)
 * [Backend.AI Manager Hub Admin Guide](https://github.com/lablup/backend.ai-docs-manager-hub) - enterprise only!
-
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 
 ## Installation
