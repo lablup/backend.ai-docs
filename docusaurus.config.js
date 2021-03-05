@@ -24,11 +24,15 @@ module.exports = {
         },
         {
           to: '/api-ref/',
-          activeBasePath: 'api-ref',
+          activeBasePath: 'api-ref/',
           label: 'API Reference',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://blog.lablup.com/',
+          label: 'Blog',
+          position: 'right',
+        },
         {
           href: 'https://github.com/lablup/backend.ai',
           label: 'GitHub',
@@ -53,27 +57,27 @@ module.exports = {
           items: [
             {
               label: 'Manager API (REST)',
-              to: '/api-ref/manager/rest/overview',
+              to: '/api-ref/manager/rest/',
             },
             {
               label: 'Manager API (GraphQL)',
-              to: '/api-ref/manager/gql/overview',
+              to: '/api-ref/manager/gql/',
             },
             {
               label: 'Storage Proxy API (Client-facing)',
-              to: '/api-ref/storage-proxy/client-facing',
+              to: '/api-ref/storage-proxy/client-facing/',
             },
             {
               label: 'Storage Proxy API (Manager-facing)',
-              to: '/api-ref/storage-proxy/manager-facing',
+              to: '/api-ref/storage-proxy/manager-facing/',
             },
             {
               label: 'WebSocket Proxy API',
-              to: '/api-ref/wsproxy/overview',
+              to: '/api-ref/wsproxy/',
             },
             {
               label: 'Client SDK API (Python)',
-              to: '/api-ref/client-py/overview',
+              to: '/api-ref/client-py/',
             },
           ],
         },
@@ -82,7 +86,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              href: 'https://blog.lablup.com/',
             },
             {
               label: 'GitHub',
@@ -92,6 +96,10 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Lablup, Inc. Built with Docusaurus.`,
+    },
+    googleAnalytics: {
+      trackingID: 'G-WM46W8FFE5',
+      // anonymizeIP: true, // Should IPs be anonymized?
     },
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
@@ -110,17 +118,12 @@ module.exports = {
         },
         'api-ref': {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/api-ref/',
+          routeBasePath: 'api-ref/',
           // Please change this to your repo.
           editUrl:
             'https://github.com/lablup/backend.ai-docs/edit/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/lablup/backend.ai-docs/edit/main/blog/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

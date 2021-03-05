@@ -1,5 +1,5 @@
 module.exports = {
-  "Docs": {
+  "docs": {
     "Getting Started": [
       'welcome',
       'doc2',
@@ -9,7 +9,10 @@ module.exports = {
       'mdx',
     ],
   },
-  "API Reference": {
+  "api-ref": {
+    "Index": [
+      'api-ref/index',
+    ],
     "Manager REST API": [
       'api-ref/manager/rest/overview',
     ],

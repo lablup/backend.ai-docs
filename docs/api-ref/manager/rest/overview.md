@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-slug: /api-ref/
+slug: ./
 ---
 
 Blah blah for Manager REST API
