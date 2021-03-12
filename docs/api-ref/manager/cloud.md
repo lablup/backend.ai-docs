@@ -8,7 +8,7 @@ https://cloud.backend.ai offers both the API and Web GUI service.
 If you access it using a web browser, it will serve the web GUI.
 If you make API requests against it, it will treat them as a session-mode API requests.
 
-The cloud API is a superset of the open-source API described in this documentation.
+The cloud API is a superset of the open-source APIs described in this documentation.
 
 ## API KeyPair Registration
 

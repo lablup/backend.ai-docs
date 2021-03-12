@@ -2,11 +2,8 @@ module.exports = {
   "docs": {
     "Getting Started": [
       'welcome',
-      'doc2',
-      'doc3',
-    ],
-    "Features": [
-      'mdx',
+      'local-install',
+      'dev-install',
     ],
   },
   "api-ref": {
