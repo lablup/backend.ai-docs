@@ -53,33 +53,33 @@ module.exports = {
           ],
         },
         {
-          title: 'API Reference',
-          items: [
-            {
-              label: 'Manager API (REST)',
-              to: '/api-ref/manager/rest/',
-            },
-            {
-              label: 'Manager API (GraphQL)',
-              to: '/api-ref/manager/gql/',
-            },
-            {
-              label: 'Storage Proxy API (Client-facing)',
-              to: '/api-ref/storage-proxy/client-facing/',
-            },
-            {
-              label: 'Storage Proxy API (Manager-facing)',
-              to: '/api-ref/storage-proxy/manager-facing/',
-            },
-            {
-              label: 'WebSocket Proxy API',
-              to: '/api-ref/wsproxy/',
-            },
-            {
-              label: 'Client SDK API (Python)',
-              to: '/api-ref/client-py/',
-            },
-          ],
+          // title: 'API Reference',
+          // items: [
+          //   {
+          //     label: 'Manager API (REST)',
+          //     to: '/api-ref/manager/rest/',
+          //   },
+          //   {
+          //     label: 'Manager API (GraphQL)',
+          //     to: '/api-ref/manager/gql/',
+          //   },
+          //   {
+          //     label: 'Storage Proxy API (Client-facing)',
+          //     to: '/api-ref/storage-proxy/client-facing/',
+          //   },
+          //   {
+          //     label: 'Storage Proxy API (Manager-facing)',
+          //     to: '/api-ref/storage-proxy/manager-facing/',
+          //   },
+          //   {
+          //     label: 'WebSocket Proxy API',
+          //     to: '/api-ref/wsproxy/',
+          //   },
+          //   {
+          //     label: 'Client SDK API (Python)',
+          //     to: '/api-ref/client-py/',
+          //   },
+          // ],
         },
         {
           title: 'More',

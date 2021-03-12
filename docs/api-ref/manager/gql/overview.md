@@ -1,7 +1,7 @@
 ---
 id: overview
-title: Overview
-slug: ./
+title: Manager GraphQL API Overview
+slug: .
 ---
 
-Blah blah for Manager GraphQL API
+Manager GraphQL API Overview

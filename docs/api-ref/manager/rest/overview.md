@@ -1,7 +1,7 @@
 ---
 id: overview
-title: Overview
-slug: ./
+title: Manager REST API Overview
+slug: .
 ---
 
-Blah blah for Manager REST API
+Manager REST API overview
